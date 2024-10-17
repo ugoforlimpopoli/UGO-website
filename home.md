@@ -22,9 +22,8 @@ anche fuori dall'[orario standard](/timetable) se almeno un volontario è presen
 
 ### Dove trovarci
 
-<html>
-<iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJCQFZ4BinLBMReUFExWCwhm4&key=AIzaSyB-3kmOOinrCZagZiERbkOZYP-g2Pzi2jw"></iframe>
-</html>
+Ci trovi in [Via Giuseppe Mazzini, 2 a Forlimpopoli](https://maps.app.goo.gl/GvrdGaHN7DzEdtUN8).
+
 
 ### Diventa volontario
 
