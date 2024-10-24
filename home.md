@@ -8,8 +8,9 @@ Un progetto nato a Forlimpopoli nel 2018 con l'intento di fornire uno spazio ded
 e confrontarsi.
 L'aula studio, ubicata nell'ex Asilo Rosetti, è gestita dai ragazzi volontari di UGO - Unione Giovani Organizzati.
 
-Scopri di più sulla nostra storia [qui](/about) e rimani aggiornato su eventi futuri legati ad UGO tramite
-la sezione [Post](/archive) nella barra di navigazione.
+Scopri di più sulla nostra storia [qui](/about).
+
+
 
 ### Stato di apertura in tempo reale
 

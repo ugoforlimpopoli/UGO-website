@@ -12,18 +12,18 @@ header:
       # @end locale config
     url: /home.html
 
-  - titles:
-      # @start locale config
-      en: &EN       Posts
-      en-GB: *EN
-      en-US: *EN
-      en-CA: *EN
-      en-AU: *EN
-      it: &IT       Post
-      it-IT: *IT
-      it-CH: *IT
-      # @end locale config
-    url: /archive.html
+#  - titles:
+#      # @start locale config
+#      en: &EN       Posts
+#      en-GB: *EN
+#      en-US: *EN
+#      en-CA: *EN
+#      en-AU: *EN
+#      it: &IT       Post
+#      it-IT: *IT
+#      it-CH: *IT
+#      # @end locale config
+#    url: /archive.html
 
   - titles:
       # @start locale config
