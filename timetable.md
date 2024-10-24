@@ -13,6 +13,7 @@ titles:
   # @end locale config
 ---
 
+Controlla gli orari aggiornati su [Maps](https://maps.app.goo.gl/GvrdGaHN7DzEdtUN8).
 
 |  Giorno   |    Mattina    |  Pomeriggio   |
 |:---------:|:-------------:|:-------------:|
