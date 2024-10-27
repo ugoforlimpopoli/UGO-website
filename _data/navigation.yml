@@ -23,7 +23,7 @@ header:
 #      it-IT: *IT
 #      it-CH: *IT
 #      # @end locale config
-#    url: /archive.html
+#    url: /events.html
 
   - titles:
       # @start locale config
@@ -37,6 +37,19 @@ header:
       it-CH: *IT
       # @end locale config
     url: /opening-status.html
+
+  - titles:
+      # @start locale config
+      en: &EN       Events
+      en-GB: *EN
+      en-US: *EN
+      en-CA: *EN
+      en-AU: *EN
+      it: &IT       Eventi
+      it-IT: *IT
+      it-CH: *IT
+      # @end locale config
+    url: /events.html
 
   - titles:
       # @start locale config
