@@ -25,9 +25,7 @@ Ci trovi in [Via Giuseppe Mazzini, 2 a Forlimpopoli](https://maps.app.goo.gl/Gvr
 
 ### È la prima volta che ci vieni a trovare?
 
-A fini assicurativi è necessario compilare 📝 [questo](assets/documents/modulo-frequentanti.pdf)
-form ed inviarcelo per mail (clicca [qui](mailto:ugoforlimpopoli2018@gmail.com?subject=Modulo%20nuovo%20frequentatore%20di%20UGO&body=All'attenzione%20dei%20ragazzi%20di%20UGO%2C%0A%0AIn%20allegato%20il%20modulo%20per%20frequentare%20UGO%20assieme%20ad%20uno%20scan%20di%20un%20mio%20documento%20di%20identit%C3%A0.%0A))
-la prima volta che ci verrai a trovare. That's it! 😄
+A fini assicurativi è necessario compilare 📝 [questo](https://forms.gle/TEyhsGH37YgKuv7g8) Google Form la prima volta che ci verrai a trovare. That's it! 😄
 
 ### Diventa volontario
 
@@ -36,7 +34,6 @@ Se il servizio ti è utile e intendi contribuire dando una mano con i turni,
 fallo presente a un volontario in aula.
 
 Ti verrà chiesto di compilare 📝
-[questo](assets/documents/modulo-volontari.pdf) form per poterti iscrivere
+[questo](https://forms.gle/yjMcxLEViQ3MnL28A) form per poterti iscrivere
 all'albo dei volontari del Comune di Forlimpopoli.
-Inviacelo per mail cliccando
-[qui](mailto:ugoforlimpopoli2018@gmail.com?subject=Modulo%20nuovo%20volontario%20UGO&body=All'attenzione%20dei%20ragazzi%20di%20UGO%2C%0A%0AIn%20allegato%20il%20modulo%20per%20diventare%20volontario%20assieme%20ad%20uno%20scan%20di%20un%20mio%20documento%20di%20identit%C3%A0.%0A).
+
