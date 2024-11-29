@@ -529,14 +529,33 @@ Questo permetterà a chi non è in aula di verificare <strong>in tempo reale</st
 <p>È molto importante collaborare su questo aspetto perchè, in questo modo è possibile usufruire dell’aula
 anche fuori dall’<a href="/timetable">orario standard</a> ⏰ se almeno un volontario è presente.</p>
 
-<h3 id="dove-trovarci">Dove trovarci</h3>
+<h3 id="dove-trovarci-">Dove trovarci 📍</h3>
 
 <p>Ci trovi in <a href="https://maps.app.goo.gl/GvrdGaHN7DzEdtUN8">Via Giuseppe Mazzini, 2 a Forlimpopoli</a>.</p>
 
-<div style="text-align: center;">
-    <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=12.124622762203218%2C44.18559304052475%2C12.127240598201753%2C44.187074020076864&amp;layer=mapnik&amp;marker=44.18633353495182%2C12.125931680202484" style="border: 1px solid black"></iframe>
-    <br />
+<style>
+/* Responsive Iframe Container */
+.map-responsive {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (adjust as needed) */
+}
+
+/* Responsive Iframe */
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black; /* Optional: keeps the border */
+}
+</style>
+
+<div class="map-responsive">
+    <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=12.124622762203218%2C44.18559304052475%2C12.127240598201753%2C44.187074020076864&amp;layer=mapnik&amp;marker=44.18633353495182%2C12.125931680202484"></iframe>
 </div>
+
 <h3 id="è-la-prima-volta-che-ci-vieni-a-trovare">È la prima volta che ci vieni a trovare?</h3>
 
 <p>A fini assicurativi è necessario compilare 📝 <a href="https://forms.gle/TEyhsGH37YgKuv7g8">questo</a> Google Form la prima volta che ci verrai a trovare. That’s it! 😄</p>
