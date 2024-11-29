@@ -19,14 +19,33 @@ Questo permetterà a chi non è in aula di verificare **in tempo reale** lo stat
 È molto importante collaborare su questo aspetto perchè, in questo modo è possibile usufruire dell'aula
 anche fuori dall'[orario standard](/timetable) ⏰ se almeno un volontario è presente.
 
-### Dove trovarci
+### Dove trovarci 📍
 
 Ci trovi in [Via Giuseppe Mazzini, 2 a Forlimpopoli](https://maps.app.goo.gl/GvrdGaHN7DzEdtUN8).
 
-<div style="text-align: center;">
-    <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=12.124622762203218%2C44.18559304052475%2C12.127240598201753%2C44.187074020076864&amp;layer=mapnik&amp;marker=44.18633353495182%2C12.125931680202484" style="border: 1px solid black"></iframe>
-    <br/>
+<style>
+/* Responsive Iframe Container */
+.map-responsive {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (adjust as needed) */
+}
+
+/* Responsive Iframe */
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black; /* Optional: keeps the border */
+}
+</style>
+
+<div class="map-responsive">
+    <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=12.124622762203218%2C44.18559304052475%2C12.127240598201753%2C44.187074020076864&amp;layer=mapnik&amp;marker=44.18633353495182%2C12.125931680202484"></iframe>
 </div>
+
 ### È la prima volta che ci vieni a trovare?
 
 A fini assicurativi è necessario compilare 📝 [questo](https://forms.gle/TEyhsGH37YgKuv7g8) Google Form la prima volta che ci verrai a trovare. That's it! 😄
