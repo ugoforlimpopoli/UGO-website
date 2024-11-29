@@ -23,6 +23,10 @@ anche fuori dall'[orario standard](/timetable) ⏰ se almeno un volontario è pr
 
 Ci trovi in [Via Giuseppe Mazzini, 2 a Forlimpopoli](https://maps.app.goo.gl/GvrdGaHN7DzEdtUN8).
 
+<div style="text-align: center;">
+    <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=12.124622762203218%2C44.18559304052475%2C12.127240598201753%2C44.187074020076864&amp;layer=mapnik&amp;marker=44.18633353495182%2C12.125931680202484" style="border: 1px solid black"></iframe>
+    <br/>
+</div>
 ### È la prima volta che ci vieni a trovare?
 
 A fini assicurativi è necessario compilare 📝 [questo](https://forms.gle/TEyhsGH37YgKuv7g8) Google Form la prima volta che ci verrai a trovare. That's it! 😄
