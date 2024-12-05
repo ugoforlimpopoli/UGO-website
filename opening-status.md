@@ -4,8 +4,7 @@ title: Stato di apertura
 permalink: /opening-status
 ---
 
-  {% include opening-status.html %}
-
+{% include opening-status.html %}
 
 <html lang="en">
 <body>

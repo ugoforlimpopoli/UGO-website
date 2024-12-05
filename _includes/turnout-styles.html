@@ -1,52 +1,118 @@
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 20px;
-        background-color: #f4f4f4;
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content horizontally */
+  }
+
+  h1, h3 {
+    text-align: center;
+  }
+
+  #status-container, #registerForm, ul#occupantsList {
+    width: 90%;
+    max-width: 600px; /* Limit width on larger screens */
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically for better responsiveness */
+    gap: 10px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    width: 100%; /* Ensure buttons span full width on mobile */
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  ul#occupantsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove extra margin for clean alignment */
+  }
+
+  ul#occupantsList li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap; /* Allow buttons to wrap below text on smaller screens */
+  }
+
+  ul#occupantsList li:last-child {
+    margin-bottom: 0; /* Remove margin for the last item */
+  }
+
+  .unregister-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .unregister-button:hover {
+    background-color: #c82333;
+  }
+
+  @media (max-width: 600px) {
+    /* Adjustments for small screens */
+    #status-container, #registerForm, ul#occupantsList {
+      padding: 15px;
     }
-    h1 {
-        text-align: center;
-    }
-    form {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
+
     input[type="text"] {
-        padding: 10px;
-        font-size: 16px;
-        width: 300px;
-        margin-right: 10px;
+      font-size: 14px;
     }
+
     button {
-        padding: 10px 15px;
-        font-size: 16px;
-        cursor: pointer;
-        background-color: #28a745;
-        color: white;
-        border: none;
+      font-size: 14px;
     }
-    button:hover {
-        background-color: #218838;
+
+    ul#occupantsList li {
+      flex-direction: column; /* Stack text and buttons vertically */
+      align-items: flex-start; /* Align content to the left */
+      gap: 10px; /* Add spacing between the name and button */
     }
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    li {
-        background-color: white;
-        margin-bottom: 10px;
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-radius: 5px;
-    }
+
     .unregister-button {
-        background-color: #dc3545;
+      align-self: flex-end; /* Align the button to the right on small screens */
     }
-    .unregister-button:hover {
-        background-color: #c82333;
-    }
+  }
 </style>
