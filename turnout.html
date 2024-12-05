@@ -512,87 +512,61 @@
 <div class="article__content" itemprop="articleBody"><html lang="en">
 <body>
     <style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    margin: 0;
-    padding: 20px;
-    background-color: #f5f5f5;
-  }
-
-  h1, h3 {
-    text-align: center;
-  }
-
-  form {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-
-  input[type="text"] {
-    padding: 10px;
-    font-size: 16px;
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin-right: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  button {
-    padding: 10px 15px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-  }
-
-  button:hover {
-    background-color: #0056b3;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 600px;
-  }
-
-  li {
-    background-color: white;
-    margin-bottom: 10px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .unregister-button {
-    background-color: #dc3545;
-    color: white;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-
-  .unregister-button:hover {
-    background-color: #c82333;
-  }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+    h1 {
+        text-align: center;
+    }
+    form {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    input[type="text"] {
+        padding: 10px;
+        font-size: 16px;
+        width: 300px;
+        margin-right: 10px;
+    }
+    button {
+        padding: 10px 15px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #28a745;
+        color: white;
+        border: none;
+    }
+    button:hover {
+        background-color: #218838;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        background-color: white;
+        margin-bottom: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .unregister-button {
+        background-color: #dc3545;
+    }
+    .unregister-button:hover {
+        background-color: #c82333;
+    }
 </style>
 
-    <h3>Sei in aula o te ne stai andando? 👀</h3>
-<form id="registerForm">
-  <input type="text" id="nameInput" placeholder="Inserisci il tuo nome" required="" />
-  <button type="submit">Registrati</button>
+    <form id="registerForm">
+    <input type="text" id="nameInput" placeholder="Inserisci il tuo nome" required="" />
+    <button type="submit">Registrati</button>
 </form>
 
 <h3>Presenti in aula real-time:</h3>
@@ -600,69 +574,69 @@
 
 </body>
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-  const apiUrl = "https://d1s96qvov1.execute-api.eu-north-1.amazonaws.com/dev/people";
-  const registerForm = document.getElementById("registerForm");
-  const nameInput = document.getElementById("nameInput");
-  const occupantsList = document.getElementById("occupantsList");
+  const registerForm = document.getElementById('registerForm');
+const nameInput = document.getElementById('nameInput');
+const occupantsList = document.getElementById('occupantsList');
 
-  // Fetch and display the current occupants
-  function fetchOccupants() {
-    fetch(`${apiUrl}/status`)
-      .then(response => response.json())
-      .then(data => {
-        occupantsList.innerHTML = ""; // Clear the list
-        if (data.occupants && data.occupants.length > 0) {
-          data.occupants.forEach(person => {
-            const listItem = document.createElement("li");
-            listItem.textContent = person;
-            const unregisterButton = document.createElement("button");
-            unregisterButton.textContent = "Rimuovi";
-            unregisterButton.className = "unregister-button";
-            unregisterButton.addEventListener("click", () => unregisterPerson(person));
-            listItem.appendChild(unregisterButton);
-            occupantsList.appendChild(listItem);
-          });
-        } else {
-          occupantsList.innerHTML = "<li>Nessuno è in aula in questo momento.</li>";
-        }
-      })
-      .catch(error => console.error("Error fetching occupants:", error));
-  }
+function updateOccupantsList() {
+    fetch('https://d1s96qvov1.execute-api.eu-north-1.amazonaws.com/dev/people/status')
+        .then(response => response.json())
+        .then(data => {
+            occupantsList.innerHTML = ''; // Clear the list first
+            data.occupants.forEach(name => {
+                const listItem = document.createElement('li');
+                listItem.textContent = name;
 
-  // Register a new person
-  registerForm.addEventListener("submit", function (event) {
+                const unregisterButton = document.createElement('button');
+                unregisterButton.textContent = 'Unregister';
+                unregisterButton.classList.add('unregister-button');
+                unregisterButton.onclick = () => unregister(name);
+
+                listItem.appendChild(unregisterButton);
+                occupantsList.appendChild(listItem);
+            });
+        });
+}
+
+registerForm.onsubmit = function(event) {
     event.preventDefault();
-    const name = nameInput.value.trim();
-    if (name) {
-      fetch(`${apiUrl}/register`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name })
-      })
-        .then(() => {
-          nameInput.value = "";
-          fetchOccupants();
-        })
-        .catch(error => console.error("Error registering person:", error));
-    }
-  });
+    const name = nameInput.value;
 
-  // Unregister a person
-  function unregisterPerson(name) {
-    fetch(`${apiUrl}/unregister`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name })
+    fetch('https://d1s96qvov1.execute-api.eu-north-1.amazonaws.com/dev/people/register', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name: name }),
     })
-      .then(() => fetchOccupants())
-      .catch(error => console.error("Error unregistering person:", error));
-  }
+    .then(response => response.json())
+    .then(data => {
+        if (data.status === "registered") {
+            nameInput.value = ''; // Clear the input field
+            updateOccupantsList(); // Refresh the occupants list
+        }
+    });
+};
 
-  // Fetch occupants initially and at intervals
-  fetchOccupants();
-  setInterval(fetchOccupants, 30000); // Refresh every 30 seconds
-});
+function unregister(name) {
+    fetch('https://d1s96qvov1.execute-api.eu-north-1.amazonaws.com/dev/people/unregister', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name: name }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.status === "unregistered") {
+            updateOccupantsList(); // Refresh the occupants list
+        }
+    });
+}
+
+updateOccupantsList();
+setInterval(updateOccupantsList, 20000); // Update every 20 seconds
+
 
 </script>
 </html>
