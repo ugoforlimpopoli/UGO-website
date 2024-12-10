@@ -13,8 +13,6 @@ titles:
   # @end locale config
 ---
 
-Controlla gli orari aggiornati su [Maps](https://maps.app.goo.gl/GvrdGaHN7DzEdtUN8).
-
 |  Giorno   |    Mattina    |  Pomeriggio   |
 |:---------:|:-------------:|:-------------:|
 |  Lunedì   | 08:30 - 12:30 | 14:30 - 18:00 |
@@ -25,7 +23,9 @@ Controlla gli orari aggiornati su [Maps](https://maps.app.goo.gl/GvrdGaHN7DzEdtU
 
 #### Nota
 Gli orari sono indicativi; in base alla disponibilità dei volontari potrebbero
-esserci variazioni, estensioni o riduzioni.
+esserci variazioni, estensioni o riduzioni, che verranno **comunicate tempestivamente
+tramite il nostro** [canale Whatsapp](https://whatsapp.com/channel/0029VazDGFXGufIpx2xVJ60H).
+
 Ad esempio, durante la sessione di esami è frequente un'estensione di questi: orario continuato,
 estensione serale o apertura nel finesettimana.
 In qualsiasi momento puoi controllare lo stato di apertura dell'aula [qui](/opening-status).
