@@ -6,6 +6,9 @@ permalink: /first-timers
 
 A fini assicurativi è necessario compilare 📝 [questo](https://forms.gle/TEyhsGH37YgKuv7g8) Google Form la prima volta che ci verrai a trovare. That's it! 😄
 
+Controlla gli [orari](timetable.md) di apertura ed iscriviti al nostro [canale Whatsapp](https://whatsapp.com/channel/0029VazDGFXGufIpx2xVJ60H)
+che utilizziamo per comunicare eventuali variazioni di orario/estensioni.
+
 ### Diventa volontario
 
 Il team di volontari è sempre in cerca di nuove forze.
