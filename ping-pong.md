@@ -38,12 +38,12 @@ permalink: /pingpong
 |----------------|--------|-----------|-----------|
 | <span style="color: orange;">Peri</span> - <span style="color: green;">Mambo</span>   | 19:00  | 19-21     | Mambo     |
 | <span style="color: purple;">Stella</span> - <span style="color: blue;">Zambo</span> | 19:10  | 21-15     | Stella    |
-| <span style="color: red;">Dego</span> - <span style="color: brown;">Zanna</span>   | 19:20  |           |           |
+| <span style="color: red;">Dego</span> - <span style="color: brown;">Zanna</span>   | 19:20  | 17-21     | Zanna     |
 
 ### Giornata 5
 
 | Partita        | Orario | Risultato | Vincitore |
 |----------------|--------|-----------|-----------|
-| <span style="color: green;">Mambo</span> - <span style="color: blue;">Zambo</span>  | 19:30  |           |           |
-| <span style="color: orange;">Peri</span> - <span style="color: red;">Dego</span>    | 19:40  |           |           |
-| <span style="color: purple;">Stella</span> - <span style="color: brown;">Zanna</span> | 19:50  |           |           |
+| <span style="color: green;">Mambo</span> - <span style="color: blue;">Zambo</span>  | 19:30  | 21-17     | Mambo     |
+| <span style="color: orange;">Peri</span> - <span style="color: red;">Dego</span>    | 19:40  | 21-19     | Peri      |
+| <span style="color: purple;">Stella</span> - <span style="color: brown;">Zanna</span> | 19:50  | 19-21     | Stella    |
