@@ -28,16 +28,16 @@ permalink: /pingpong
 
 | Partita        | Orario | Risultato | Vincitore |
 |----------------|--------|-----------|-----------|
-| <span style="color: blue;">Zambo</span> - <span style="color: orange;">Peri</span>   | 18:30  |           |           |
-| <span style="color: purple;">Stella</span> - <span style="color: red;">Dego</span>  | 18:40  |           |           |
-| <span style="color: green;">Mambo</span> - <span style="color: brown;">Zanna</span>  | 18:50  |           |           |
+| <span style="color: blue;">Zambo</span> - <span style="color: orange;">Peri</span>   | 18:30  | 7-21      | Peri      |
+| <span style="color: purple;">Stella</span> - <span style="color: red;">Dego</span>  | 18:40  | 21-17     | Stella    |
+| <span style="color: green;">Mambo</span> - <span style="color: brown;">Zanna</span>  | 18:50  | 21-16     | Zanna     |
 
 ### Giornata 4
 
 | Partita        | Orario | Risultato | Vincitore |
 |----------------|--------|-----------|-----------|
-| <span style="color: orange;">Peri</span> - <span style="color: green;">Mambo</span>   | 19:00  |           |           |
-| <span style="color: purple;">Stella</span> - <span style="color: blue;">Zambo</span> | 19:10  |           |           |
+| <span style="color: orange;">Peri</span> - <span style="color: green;">Mambo</span>   | 19:00  | 19-21     | Mambo     |
+| <span style="color: purple;">Stella</span> - <span style="color: blue;">Zambo</span> | 19:10  | 21-15     | Stella    |
 | <span style="color: red;">Dego</span> - <span style="color: brown;">Zanna</span>   | 19:20  |           |           |
 
 ### Giornata 5
