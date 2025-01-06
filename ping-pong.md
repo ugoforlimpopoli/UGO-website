@@ -9,6 +9,7 @@ permalink: /pingpong
 
 
 ### Giornata 1
+
 | Partita        | Orario | Risultato | Vincitore |
 |----------------|--------|-----------|-----------|
 | <span style="color: red;">Dego</span> - <span style="color: blue;">Zambo</span>   | 17:30  | 21-19     | Dego      |
@@ -16,13 +17,15 @@ permalink: /pingpong
 | <span style="color: orange;">Peri</span> - <span style="color: brown;">Zanna</span>   | 17:50  | 18-21     | Zanna     |
 
 ### Giornata 2
+
 | Partita        | Orario | Risultato | Vincitore |
 |----------------|--------|-----------|-----------|
 | <span style="color: orange;">Peri</span> - <span style="color: purple;">Stella</span>  | 18:00  | 21-18     | Peri      |
 | <span style="color: red;">Dego</span> - <span style="color: green;">Mambo</span>   | 18:10  | 14-21     | Mambo     |
-| <span style="color: blue;">Zambo</span> - <span style="color: brown;">Zanna</span>  | 18:20  |           |           |
+| <span style="color: blue;">Zambo</span> - <span style="color: brown;">Zanna</span>  | 18:20  | 20-22     | Zanna     |
 
 ### Giornata 3
+
 | Partita        | Orario | Risultato | Vincitore |
 |----------------|--------|-----------|-----------|
 | <span style="color: blue;">Zambo</span> - <span style="color: orange;">Peri</span>   | 18:30  |           |           |
@@ -30,6 +33,7 @@ permalink: /pingpong
 | <span style="color: green;">Mambo</span> - <span style="color: brown;">Zanna</span>  | 18:50  |           |           |
 
 ### Giornata 4
+
 | Partita        | Orario | Risultato | Vincitore |
 |----------------|--------|-----------|-----------|
 | <span style="color: orange;">Peri</span> - <span style="color: green;">Mambo</span>   | 19:00  |           |           |
@@ -37,6 +41,7 @@ permalink: /pingpong
 | <span style="color: red;">Dego</span> - <span style="color: brown;">Zanna</span>   | 19:20  |           |           |
 
 ### Giornata 5
+
 | Partita        | Orario | Risultato | Vincitore |
 |----------------|--------|-----------|-----------|
 | <span style="color: green;">Mambo</span> - <span style="color: blue;">Zambo</span>  | 19:30  |           |           |
