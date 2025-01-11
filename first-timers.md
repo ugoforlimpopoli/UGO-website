@@ -9,6 +9,15 @@ A fini assicurativi è necessario compilare 📝 [questo](https://forms.gle/TEyh
 Controlla gli [orari](timetable.md) di apertura ed iscriviti al nostro [canale Whatsapp](https://whatsapp.com/channel/0029VazDGFXGufIpx2xVJ60H)
 che utilizziamo per comunicare eventuali variazioni di orario/estensioni.
 
+### Stato di apertura in tempo reale
+
+Quando arriverai in aula troverai dei QR codes che ti permetteranno di registrare la tua presenza in aula.
+Questo permetterà a chi non è in aula di verificare **in tempo reale** lo stato di apertura dell'aula nella pagina
+[Affluenza](/opening-status).
+
+È molto importante collaborare su questo aspetto perchè, in questo modo è possibile usufruire dell'aula
+anche fuori dall'[orario standard](/timetable) ⏰ se almeno un volontario è presente.
+
 ### Diventa volontario
 
 Il team di volontari è sempre in cerca di nuove forze.

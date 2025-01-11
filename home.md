@@ -8,15 +8,6 @@ Un progetto nato a Forlimpopoli nel 2018 con l'intento di fornire uno spazio ded
 e confrontarsi.
 L'aula studio, ubicata nell'ex Asilo Rosetti, è gestita dai ragazzi volontari di UGO - Unione Giovani Organizzati.
 
-### Stato di apertura in tempo reale
-
-Quando arriverai in aula troverai dei QR codes che ti permetteranno di registrare la tua presenza in aula.
-Questo permetterà a chi non è in aula di verificare **in tempo reale** lo stato di apertura dell'aula nella pagina
-[Affluenza](/opening-status).
-
-È molto importante collaborare su questo aspetto perchè, in questo modo è possibile usufruire dell'aula
-anche fuori dall'[orario standard](/timetable) ⏰ se almeno un volontario è presente.
-
 ### Dove trovarci 📍
 
 Ci trovi in [Via Giuseppe Mazzini, 2 a Forlimpopoli](https://maps.app.goo.gl/GvrdGaHN7DzEdtUN8).
