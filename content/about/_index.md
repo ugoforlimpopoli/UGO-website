@@ -8,7 +8,7 @@ L'aula studio, ubicata nell'ex Asilo Rosetti, è gestita dai ragazzi volontari d
 
 ### Dove trovarci 📍
 
-Ci trovi in [Via Giuseppe Mazzini, 2 a Forlimpopoli](https://maps.app.goo.gl/d7GT3kRDQf1ewSS5).
+Ci trovi in [Via Giuseppe Mazzini, 2 a Forlimpopoli](https://maps.app.goo.gl/7RqrmfWgGXU9zotq7).
 
 ### Le nostre pagine social
 

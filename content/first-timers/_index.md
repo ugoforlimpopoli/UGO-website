@@ -6,7 +6,7 @@ slug: first-timers
 
 A fini assicurativi è necessario compilare 📝 [questo](https://forms.gle/TEyhsGH37YgKuv7g8) Google Form la prima volta che ci verrai a trovare. That's it! 😄
 
-Controlla gli [orari](https://maps.app.goo.gl/d7GT3kRDQf1ewSS5) di apertura ed iscriviti al nostro [canale Whatsapp](https://whatsapp.com/channel/0029VazDGFXGufIpx2xVJ60H)
+Controlla gli [orari](https://maps.app.goo.gl/7RqrmfWgGXU9zotq7) di apertura ed iscriviti al nostro [canale Whatsapp](https://whatsapp.com/channel/0029VazDGFXGufIpx2xVJ60H)
 che utilizziamo per comunicare eventuali variazioni di orario/estensioni.
 
 ### Stato di apertura in tempo reale
