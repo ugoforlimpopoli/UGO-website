@@ -1,50 +1,15 @@
-# Pre-existent files
-#---------------------------------------------#
-# npm
-package.json
-# Lint
-.commitlintrc.js
-.eslintrc
-.stylelintignore
-.stylelintrc
+**.DS_Store
 
-# Docker
-Dockerfile.dev
-#---------------------------------------------#
-# JetBrains
-.idea/
-.grazie.yaml
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
 
-test/
-docs/
-
-# Travis CI
-.travis.yml
-
-*~
-~*
-*.diff
-*.patch
-*.bak
-.DS_Store
-*.swp
-*.swo
-*.log
-*.log.*
-
-/.vscode/
-
-node_modules/
-.sass-cache/
-
-/.bundle/
-/vendor/bundle
-*.gem
-
-yarn.lock
-package-lock.json
-
-_site/
-.jekyll-metadata
-.jekyll-cache/
+# Temporary lock file while building
+/.hugo_build.lock

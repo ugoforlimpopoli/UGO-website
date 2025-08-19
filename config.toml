@@ -1,0 +1,41 @@
+baseURL = 'https://ugoforlimpopoli.it'
+languageCode = 'it'
+title = 'UGO Aula Studio'
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 10
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 20
+[[menu.main]]
+name = "Affluenza"
+url = "/opening-status/"
+weight = 20
+[[menu.main]]
+name = "Moduli"
+url = "/first-timers/"
+weight = 20
+
+[privacy]
+[privacy.disqus]
+disable = true
+[privacy.googleAnalytics]
+disable = true
+[privacy.instagram]
+disable = true
+[privacy.x]
+disable = true
+[privacy.vimeo]
+disable = true
+[privacy.youtube]
+disable = true
+
+[outputs]
+section = ["HTML"]
+
+[params]
+logo = "/images.ugo-logo.png"
