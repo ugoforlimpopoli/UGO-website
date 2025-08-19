@@ -1,0 +1,110 @@
+<style>
+  /* Remove body styling to preserve theme defaults */
+  /* Keep only component-specific styles */
+
+  h1, h3 {
+    text-align: center;
+  }
+
+  #status-container, #registerForm-container, ul#occupantsList {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  ul#occupantsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul#occupantsList li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+  }
+
+  ul#occupantsList li:last-child {
+    margin-bottom: 0;
+  }
+
+  .unregister-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .unregister-button:hover {
+    background-color: #c82333;
+  }
+
+  @media (max-width: 600px) {
+    #status-container, #registerForm-container, ul#occupantsList {
+      padding: 15px;
+    }
+
+    input[type="text"] {
+      font-size: 14px;
+    }
+
+    button {
+      font-size: 14px;
+    }
+
+    ul#occupantsList li {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .unregister-button {
+      align-self: flex-end;
+    }
+  }
+</style>
